@@ -10,10 +10,10 @@ class dbc
 	private $row_count;
 	
 	function __construct() {
-		$host="fdb7.biz.nf";
-		$user="root";
-		$pass="1942";
-		$dbname="1942808_quiz";
+		$host="db_host_here";
+		$user="username_here";
+		$pass="password_here";
+		$dbname="db_name_here";
 		$connection=mysql_connect($host,$user,$pass);
 		if (!$connection) { 
 			echo( '<p>Unable to connect to the ' .
